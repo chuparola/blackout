@@ -1,0 +1,875 @@
+:root {
+    --red-color: red;
+    --purple-color: purple;
+    --black-color: #111;
+    --color-dark: rgb(39, 39, 39);
+    --green-color: green;
+    --white-color : #eee;
+    --gray-color: #8d8d8d;
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    height: 100vh;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.section-course {
+    height: 100vh;
+    background: var(--color-dark)
+}
+
+.section-hacking {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-verificacao-hacking {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-obrigado-hacking {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-termux {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-verificacao-termux {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-obrigado-termux {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-ferramentas {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-verificacao-ferramentas {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-obrigado-ferramentas {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-sobre {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-contato {
+    height: 100vh;
+    background: var(--color-dark);
+}
+
+.section-spacing {
+    height: none;
+    background: var(--color-dark);
+}
+
+.main-course {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-hacking {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-verificacao-hacking {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-obrigado-hacking {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-termux {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-verificacao-termux {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-obrigado-termux {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-ferramentas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-verificacao-ferramentas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-obrigado-ferramentas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contato {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    position: relative;
+    top: -50px;
+}
+
+.formulario h1 {
+    width: 100%;
+    padding: 10px;
+}
+
+.formulario input {
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--black-color);
+    border: 1px solid var(--green-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.formulario input:hover {
+    transition: all 1s ease;
+    box-shadow: 10px var(--gray-color);
+}
+
+.btn-formulario {
+    margin-top: 20px;
+    background: var(--green-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-formulario a {
+    display: block;
+    color: var(--white-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-copy {
+    height: 30px;
+    width: 30px;
+    background: var(--green-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+}
+
+.btn-copy:hover {
+    transition: all 0.1ms ease;
+    background: var(--gray-color);
+    color: var(--black-color);
+}
+
+.btn-copy:focus {
+    background: var(--green-color);
+}
+
+.pagamento {
+    text-align: center;
+}
+
+.pagamento img {
+    width: 250px;
+}
+
+.input-pix {
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    background: var(--black-color);
+    padding: 10px 100px;
+    border-radius: 5px;
+}
+
+.btn-pix {
+    margin-top: 20px;
+    background: var(--green-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-pix a {
+    padding: 10px 100px;
+    display: block;
+    color: var(--white-color);
+}
+
+.text-top {
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+
+.text-top h1 {
+    font-size: 20px;
+}
+
+.text-top a {
+    color: var(--white-color);
+}
+
+.text-top-contato {
+    position: relative;
+    top: -50px;
+    text-align: center;
+}
+
+.text-top-contato h1 {
+    font-size: 2rem;
+}
+
+.text-top-contato h3 {
+    text-align: left;
+}
+
+.input-contato {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+    background: var(--black-color);
+    color: var(--white-color);
+    outline: none;
+    font-size: 1rem;
+}
+
+.input-message-contato {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+    background: var(--black-color);
+    color: var(--white-color);
+    outline: none;
+    font-size: 1rem;
+}
+
+.btn-contato {
+    padding: 10px 100px;
+    display: block;
+    color: var(--white-color);
+    background: var(--green-color);
+    border-radius: 5px;
+}
+
+.btn-contato:hover {
+    transition: all 1s ease;
+    background: var(--gray-color);
+    color: var(--white-color);
+}
+
+#mensagem {
+    display: none;
+    background-color: var(--purple-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    font-size: 2rem;
+}
+
+.obrigado-top {
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+
+.obrigado-top h1 {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.obrigado-top p {
+    color: var(--gray-color);
+    padding-bottom: 20px;
+}
+
+.text-white p {
+    color: var(--white-color);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-white a {
+    display: block;
+    background: var(--green-color);
+    color: var(--white-color);
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text-center {
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.curso1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/cadeado.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 30px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 40px 100px;
+}
+
+.curso1:hover {
+    transform: scale(1.1);
+    box-shadow: 0.1px 0.1px 30px var(--white-color);
+}
+
+.curso1 h1 {
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.curso1 p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.curso1 ul li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.curso1 span {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.curso1 a {
+    margin-top: 30px;
+    text-align: center;
+    background: var(--green-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    
+}
+
+.curso1 a:hover {
+    transition: all 1s ease-in-out;
+    background: var(--white-color);
+    transform: scale(1.1);
+    color: var(--black-color);
+}
+
+.curso2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/termux.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 30px;
+    transition: all 0.3s ease;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.curso2:hover {
+    transform: scale(1.1);
+    box-shadow: 0.1px 0.1px 30px var(--white-color);
+}
+
+.curso2 h1 {
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.curso2 p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.curso2 ul li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.curso2 span {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.curso2 a {
+    text-align: center;
+    margin-top: 30px;
+    background: var(--green-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.curso2 a:hover {
+    transition: all 1s ease-in-out;
+    background: var(--white-color);
+    transform: scale(1.1);
+    color: var(--black-color);
+}
+
+.curso3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/ferramentas.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 30px;
+    transition: all 0.3s ease;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.curso3:hover {
+    transform: scale(1.1);
+    box-shadow: 0.1px 0.1px 30px var(--white-color);
+}
+
+.curso3 h1 {
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.curso3 p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.curso3 ul li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.curso3 span {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.curso3 a {
+    text-align: center;
+    margin-top: 30px;
+    background: var(--green-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.curso3 a:hover {
+    transition: all 1s ease-in-out;
+    background: var(--white-color);
+    transform: scale(1.1);
+    color: var(--black-color);
+}
+
+.text-green {
+    color: var(--green-color);
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.main-content h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-content p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-content a {
+    color: var(--white-color);
+    margin-top: 10px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--green-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-content a:hover {
+    background: var(--gray-color);
+    transition: all 1s ease;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .main-content {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+    }
+
+    .main-content a {
+        color: var(--white-color);
+        margin-top: 10px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: var(--green-color);
+        text-align: center;
+        border-radius: 5px;
+        
+    }
+
+    .main-course {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 500px;
+        margin-left: 20px;
+    }
+
+    .curso1 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../img/cadeado.jpg');
+        background-size: cover;
+        background-position: center center;
+        margin-right: 30px;
+        transition: all 0.3s ease;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .curso1 h1 {
+        position: relative;
+        top: 1px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .curso1 p {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso1 ul li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .curso1 span {
+        font-size: 30px;
+    }
+    
+    .curso1 a {
+        text-align: center;
+        margin-top: 30px;
+        background: var(--green-color);
+        color: var(--white-color);
+        border-radius: 5px;
+    }
+
+    .curso2 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../img/termux.jpg');
+        background-size: cover;
+        background-position: center center;
+        margin-right: 30px;
+        transition: all 0.3s ease;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .curso2 h1 {
+        position: relative;
+        top: 1px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .curso2 p {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso2 ul li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .curso2 span {
+        font-size: 30px;
+    }
+    
+    .curso2 a {
+        text-align: center;
+        margin-top: 30px;
+        background: var(--green-color);
+        color: var(--white-color);
+        border-radius: 5px;
+    }
+    
+    .curso3 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../img/ferramentas.jpg');
+        background-size: cover;
+        background-position: center center;
+        margin-right: 30px;
+        transition: all 0.3s ease;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .curso3 h1 {
+        position: relative;
+        top: 1px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso3 p {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .curso3 ul li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .curso3 span {
+        font-size: 30px;
+    }
+    
+    .curso3 a {
+        text-align: center;
+        margin-top: 30px;
+        background: var(--green-color);
+        color: var(--white-color);
+        border-radius: 5px;
+    }
+
+    .text-center {
+        font-size: 30px;
+        position: relative;
+        top: 60px;
+        text-align: center;
+    }
+
+    .formulario h1 {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .formulario input {
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: var(--black-color);
+        border: 1px solid var(--green-color);
+        color: var(--white-color);
+        border-radius: 5px;
+        outline: none;
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    
+    .input-pix {
+        border: none;
+        outline: none;
+        color: var(--white-color);
+        background: var(--black-color);
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+
+    .obrigado-top {
+        position: relative;
+        top: -100px;
+        text-align: center;
+    }
+    
+    .obrigado-top h1 {
+        padding: 20px;
+        font-size: 2rem;
+    }
+    
+    .obrigado-top p {
+        color: var(--gray-color);
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+    
+    .text-white p {
+        color: var(--white-color);
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .text-white a {
+        display: block;
+        background: var(--green-color);
+        color: var(--white-color);
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .section-spacing {
+        height: 80vh;
+        background: var(--color-dark);
+    }
+
+}

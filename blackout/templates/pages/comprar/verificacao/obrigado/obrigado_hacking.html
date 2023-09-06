@@ -1,0 +1,20 @@
+{% extends 'global/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <section class="section-obrigado-hacking">
+        <div class="main-obrigado-hacking">
+            <div class="obrigado-top">
+                <h1>Obrigado pela sua preferência!</h1>
+                <p>A equipe Blackout agradece de coração a sua compra, <br>e para qualquer eventualidade não deixe de <span class="text-green">entrar em contato conosco</span>.</p>
+                <div class="text-white">
+                    <p>Assim que a sua compra for aprovada vai receber o link para <br>download e a chave de ativação da nossa Blackout em seu e-mail.</p>
+                    <p>Se você pagou via pix não deve levar mais que 5 minutos para a <br>sua compra ser aprovada, mas agora se foi via boleto a aprovação <br>só vai acontecer em até 3 dias úteis após o pagamento.</p>
+                    <a href="{% url 'index' %}">Concluir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}

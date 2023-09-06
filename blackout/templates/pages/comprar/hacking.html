@@ -1,0 +1,23 @@
+{% extends 'global/base.html' %}
+
+
+{% block content %}
+
+    <section class="section-hacking">
+        <div class="main-hacking">
+            <div class="text-top">
+                <h1>Complete os campos abaixo para realizar o pagamento:</h1>
+            </div>
+            <div class="formulario">
+                <h1>Seu nome</h1>
+                <input type="text">
+                <h1>Seu e-mail</h1>
+                <input type="text">
+                <div class="btn-formulario">
+                    <a href="{% url 'verificacao_hacking' %}">Continuar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends 'global/base.html' %}
+
+{% block content %}
+
+    <section class="section-contato">
+        <div class="main-contato">
+            <div class="text-top-contato">
+                <h1>Fale <span class="text-green">Conosco</span></h1>
+                <p class="text-gray">Dúvidas? Problemas? Nos envie sua mensagem</p>
+                <br><br><br>
+                <p>Nossa equipe de atendimento funciona em todos os dias úteis da semana das 9h até as 17h. Você sempre vai <br> receber sua resposta em seu e-mail depois de algumas horas, ou ainda no próximo dia útil caso tenha enviado fora <br> do horário ou em um final de semana.</p>
+                <br><br>
+                <h3>Seu nome:</h3>
+                <input class="input-contato" type="text">
+                <h3>Seu e-mail:</h3>
+                <input class="input-contato" type="text">
+                <h3>Sua mensagem:</h3>
+                <textarea name="input-message" class="input-message-contato" cols="30" rows="10"></textarea>
+                <a class="btn-contato" id="meuLink" href="#">Enviar</a>
+                <div id="mensagem">Mensagem Enviada!</div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}

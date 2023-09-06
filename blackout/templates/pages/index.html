@@ -1,0 +1,61 @@
+{% extends 'global/base.html' %}
+
+{% block content %}
+
+    <!-- Header -->
+    <section class="section">
+        <div class="main-content">
+            <h1>Desbloqueie seu <span class="text-green">conhecimento</span> <br>com nossos <span class="text-green">cursos</span></h1>
+            <p>Nós da BlackOut temos um único objetivo: Desbloquear todo o <br> <span class="text-green">conhecimento</span>. Se junte a nós.</p>
+            <a href="#cursos">Quero Conhecimento!</a>
+            <a href="{% url 'sobre' %}">O que é isso?</a>
+        </div>
+    </section>
+    <!-- Header End -->
+
+    <!-- Courses -->
+    <section class="section-course" id="cursos">
+        <div class="text-center">
+            <h1>Nossos <span class="text-green">Cursos</span></h1>
+        </div>
+        <div class="main-course">
+            <div class="curso1">
+                <h1>Hacking</h1>
+                <p>Tudo tem início!</p>
+                <ul>
+                    <li>Você será capaz <br>de aprender tudo</li>
+                    <li>Não precisa de nenhum <br>conhecimento para aprender</li>
+                    <li>Nível Básico até o Avançado</li>
+                </ul>
+                <span>R$ 19,90</span>
+                <a href="{% url 'hacking' %}">Comprar</a>
+            </div>
+            <div class="curso2">
+                <h1>Termux</h1>
+                <p>Tudo tem inicio</p>
+                <ul>
+                    <li>Você será capaz <br>de aprender tudo</li>
+                    <li>Não precisa de nenhum <br>conhecimento para aprender</li>
+                    <li>Nível Básico até o Avançado</li>
+                </ul>
+                <span>R$ 19,90</span>
+                <a href="{% url 'termux' %}">Comprar</a>
+            </div>
+            <div class="curso3">
+                <h1>Ferramentas</h1>
+                <p>Tudo tem inicio</p>
+                <ul>
+                    <li>Você será capaz <br>de aprender tudo</li>
+                    <li>Não precisa de nenhum <br>conhecimento para aprender</li>
+                    <li>Nível Básico até o Avançado</li>
+                </ul>
+                <span>R$ 19,90</span>
+                <a href="{% url 'ferramentas' %}">Comprar</a>
+            </div>
+        </div>
+    </section>
+    <!-- Courses End -->
+
+    <section class="section-spacing"></section>
+
+{% endblock content %}
